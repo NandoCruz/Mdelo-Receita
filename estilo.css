@@ -5,25 +5,65 @@ body{
 
 /* Titulo da Receita*/
 header#cabecalho h1{
-    font: bold 70pt Arial;
+    position: absolute;
+    font: bold 60pt Arial;
     color: rgb(100, 0, 0);
     text-align: center;
+    margin: 0px 0px 0px 400px ;
 }
 
-/* Corpo da Receita */
-section{
+/* minhas redes sociais */
+section#redes-sociais{
+    position: absolute;
     background: #ffffff;
+    border-radius: 5px;
+    font: normal 12pt Arial;
+    color: rgb(100, 0, 0);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    margin: 340px 0px 0px 20px;
+}
+
+/* minha foto */
+section#lado1 img#foto01{
+    position: absolute;
+    margin: 130px 0px 0px 10px;
     border-radius: 10px;
-    width: 800px;
-    margin: 200px 0px 0px 300px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
-section#lado2 {
+/* meu nome */
+section#lado1 h3{
+    position: absolute;
+    color: rgb(100, 0, 0);
+    margin: 380px 0px 0px 40px;
+}
+
+div#texto01 img#foto02{
+    position: absolute;
+    margin: 0px 0px 0px 420px;
+    border-radius: 10px;
+}
+
+/* Corpo da Receita */
+section#corpo{
+    position: absolute;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 800px;
+    margin: 120px 0px 0px 320px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
     color: rgb(100, 0, 0);
     padding-left: 20px;
 }
 
+/* cordo corpo do texto */
+section#corpo p{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+section#corpo div#texto02 li{
+    color: rgba(0, 0, 0, 0.7);
+}
 footer{
     text-align: center;
 }
